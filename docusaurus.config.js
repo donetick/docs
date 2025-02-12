@@ -89,19 +89,19 @@ const config = {
         },
         
         items: [
-          {
-            to: 'https://donetick.com',
-            label: 'Website',
-            position: 'left',
-
-          },
+         
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Docs',
           },
-          
+          {
+            to: 'https://donetick.com',
+            label: 'Website',
+            position: 'left',
+
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/donetick/donetick',
