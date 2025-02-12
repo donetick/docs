@@ -122,7 +122,7 @@ const config = {
               },
               {
                 label: 'Notifications',
-                to: '/notifications',
+                to: '/category/notifications',
               },
               {
                 label: 'Webhooks',

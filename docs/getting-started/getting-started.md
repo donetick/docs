@@ -13,7 +13,7 @@ This guide provides instructions on how to quickly get started with Donetick loc
 
 Before running Donetick, ensure you have a valid configuration file.  Donetick looks for a YAML file named `local.yaml` or `selfhosted.yaml` within the `./config` directory. The file name is chosen based on the `DT_ENV` environment variable. If `DT_ENV` is not set, `local.yaml` is used by default.
 
-1.  **Create a Configuration File:** If you don't have one, create a YAML file (e.g., `selfhosted.yaml`) based on the example provided in the [Configuration](configuration) documentation.
+1.  **Create a Configuration File:** If you don't have one, create a YAML file (e.g., `selfhosted.yaml`) based on the example provided in the [Configuration](./configration) documentation.
 2.  **Place the Configuration File:** Place the `selfhosted.yaml` (or your chosen name) file in the `/config` directory within your Donetick application's root directory.
 
 ## Running Donetick
@@ -73,7 +73,7 @@ You can run Donetick using Docker, Docker Compose, or directly from a binary.
 
 ### Using the Binary
 
-1.  **Download the Release:** Download the latest Donetick release for your platform from the [Releases](link-to-releases-page) page.
+1.  **Download the Release:** Download the latest Donetick release for your platform from the [Releases](https://github.com/donetick/donetick/releases) page.
 2.  **Extract the Archive:** Extract the downloaded archive (e.g., `.tar.gz`, `.zip`).
 3.  **Navigate to the Directory:** Open a terminal and navigate to the directory where you extracted the Donetick binary.
 4.  **Run Donetick:** Run the Donetick binary, setting the `DT_ENV` environment variable:

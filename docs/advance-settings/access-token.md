@@ -18,3 +18,4 @@ Access token are long-term tokens that can be used to authenticate API requests 
 ## Using the Access Token
 
 Once you have generated an access token, you can use it to authenticate eAPI (donetick external API) requests to Donetick.  To authenticate a request, include the access token in the `secret` header of the HTTP request
+

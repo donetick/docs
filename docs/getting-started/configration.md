@@ -146,4 +146,4 @@ The configuration is then processed by `viper`, with environment variable overri
 
 ---
 
-This document provides a high-level overview of Donetick's configuration. For specific setup instructions, refer to the [installation guide](./installation).
+This document provides a high-level overview of Donetick's configuration. For specific setup instructions, refer to the [installation guide](./getting-started.md).
