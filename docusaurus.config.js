@@ -90,7 +90,7 @@ const config = {
         
         items: [
           {
-            to: 'https://www.donetick.com',
+            to: 'https://donetick.com',
             label: 'Donetick',
             position: 'left',
 
