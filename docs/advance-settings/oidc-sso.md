@@ -29,7 +29,7 @@ You can configure OIDC authentication via the `config.yaml` file or environment 
 oauth2:
   client_id: "your-client-id"
   client_secret: "your-client-secret"
-  redirect_url: "https://your-donetick-instance.com/auth/callback"
+  redirect_url: "https://your-donetick-instance.com/auth/oauth2"
   scopes:
     - "openid"
     - "profile"
