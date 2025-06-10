@@ -76,12 +76,12 @@ DT_STORAGE_MAX_FILE_SIZE=2097152
 
 ---
 
-## Local Storage Fallback
-this is not recommended for production use, but can be useful for testing or development environments.
+## Local Storage
+this is not recommended for production use, but can be useful for testing or development environments. PLEASE don't use it for the time being
 
 > **Important:** When running Donetick in Docker with local storage, you must mount a persistent volume to avoid data loss. Without a proper volume mount, uploaded files will be lost if the container is removed or recreated.
 
-
+<!-- 
 If S3-compatible storage is not **configured**, Donetick will use local storage by default:
 
 ```yaml
@@ -91,7 +91,7 @@ storage:
   max_file_size: 2097152
 ```
 
-Files are stored in the `assets/` directory within your Donetick installation.
+Files are stored in the `assets/` directory within your Donetick installation. -->
 
 
 **Example Docker Compose volume mount:**
