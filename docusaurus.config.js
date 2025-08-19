@@ -127,6 +127,10 @@ const config = {
               {
                 label: 'Webhooks',
                 to: '/advance-settings/webhooks',
+              },
+              {
+                label: 'API',
+                to: '/advance-settings/api',
               }
             ],
           },
