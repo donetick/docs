@@ -1,12 +1,10 @@
-import PostmanAuthTab from '/static/img/postman-collection-auth.png';
-
-
-
 ---
 id: api
 title: Using the API
 sidebar_label: Using the API
 ---
+
+import PostmanAuthTab from '/static/img/postman-collection-auth.png';
 
 
 
