@@ -56,8 +56,8 @@ You can run Donetick using Docker, Docker Compose, or directly from a binary.
         ports:
           - "2021:2021"
         volumes:
-          -./data:/donetick-data  # Maps./data on your host to /donetick-data in the container
-          -./config:/config       # Maps./config on your host to /config in the container
+          - ./data:/donetick-data  # Maps./data on your host to /donetick-data in the container
+          - ./config:/config       # Maps./config on your host to /config in the container
         environment:
           - DT_ENV=selfhosted
           - DT_SQLITE_PATH=/donetick-data/donetick.db
