@@ -91,7 +91,7 @@ Send a POST request to https://[your instance]/eapi/v1/chore. There must be a js
 ```jsx title="Sample body"
 {
     "Name": "Record TV on a VHS tape like it's 1990",
-    "DueDate": "2025-08-30T19:51:50.000Z",
+    "DueDate": "2025-08-30T19:51:50.000Z"
 }
 ```
 
