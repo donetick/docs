@@ -114,8 +114,7 @@ This ensures that files stored in the `assets/` directory are persisted on your 
 - Use dedicated credentials for Donetick.
 - Grant only the minimum permissions required.
 - Store credentials in environment variables, not in version control.
-- Enable encryption and versioning on your storage bucket if supported.
-- Use a CDN for public asset delivery when possible.
+
 
 ---
 
