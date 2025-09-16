@@ -19,9 +19,9 @@ Buy groceries next Friday at 5pm
 ## Smart Parsing Features
 
 ### Priority Levels
-- **P1** or **Urgent** - Highest priority
-- **P2**, **P3**, **P4** - Lower priorities
-- **Important**, **ASAP** - Also recognized as P1
+- **!P1** - Highest priority
+- **!P2**, **!P3**, **!P4** - Lower priorities
+
 
 ### Due Dates
 Donetick understands natural language dates:
@@ -34,6 +34,12 @@ Set recurring tasks automatically:
 - `daily`, `weekly`, `monthly`, `yearly`
 - `every Tuesday and Thursday`
 - `every 2 weeks`
+
+### Labels
+Add labels to tasks using the `#` symbol:
+- `Clean kitchen #home #urgent`
+- `Review code #work #development`
+- `Exercise #health #personal`
 
 ## Tips for Best Results
 
