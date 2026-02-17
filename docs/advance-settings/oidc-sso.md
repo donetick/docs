@@ -26,7 +26,7 @@ If you use the Donetick mobile app with OIDC, add the mobile redirect URI in add
 
 ## OAuth2 Configuration
 
-You can configure OIDC authentication via the `config.yaml` file or environment variables.
+You can configure OIDC authentication via the `config.yaml` file or **environment** variables.
 
 ### YAML Configuration (`config.yaml`)
 
@@ -43,7 +43,7 @@ oauth2:
   token_url: "https://your-oidc-provider.com/token"
   user_info_url: "https://your-oidc-provider.com/userinfo"
   name: "Your Provider Name"
-
+```
   ---
 
   ## Example: Configure OIDC in Authentik
