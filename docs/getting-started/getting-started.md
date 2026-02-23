@@ -88,3 +88,5 @@ You can run Donetick using Docker, Docker Compose, or directly from a binary.
 
 Once Donetick is running, you should be able to access it at `http://localhost:2021` (or the port you configured).  If you are running Donetick in a remote environment, replace `localhost` with the appropriate hostname or IP address.
 
+> **Mobile app requirements:** If you plan to use the Android or iOS apps, your Donetick instance **must be reachable from the public internet** and served over **secure HTTPS** with a valid certificate. The mobile apps will not connect to a local-only or insecure HTTP address.
+
