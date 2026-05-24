@@ -2,6 +2,7 @@
 id: smart-task-creation
 title: Smart Task Creation
 sidebar_label: Smart Task Creation
+sidebar_position: 3
 ---
 
 # Smart Task Creation
