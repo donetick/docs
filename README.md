@@ -8,6 +8,13 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 $ yarn
 ```
 
+###  Generating swagger pages
+
+```
+yarn docusaurus gen-api-docs all
+```
+The static pages are generated from the swagger.yaml file, update if necessary.
+
 ### Local Development
 
 ```

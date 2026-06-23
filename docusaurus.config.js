@@ -45,7 +45,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/', 
-          
+          docItemComponent: '@theme/ApiItem', // Derived from docusaurus-theme-openapi
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/donetick/docs/tree/main/',
@@ -73,7 +73,25 @@ const config = {
       }),
     ],
   ],
-
+ plugins: [
+    [
+      'docusaurus-plugin-openapi-docs',
+      {
+        id: 'api', // plugin id
+        docsPluginId: 'classic', // configured for preset-classic
+        config: {
+          api: {
+            specPath: './static/openapi/swagger.yaml', // Path to your OpenAPI spec
+            outputDir: 'docs/api', // Where to output generated docs
+            sidebarOptions: {
+              groupPathsBy: 'tag',
+            },
+          },
+        },
+      },
+    ],
+  ],
+  themes: ['docusaurus-theme-openapi-docs'], // Export theme components
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -92,7 +110,7 @@ const config = {
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
-            position: 'left',
+            position: 'left', 
             label: 'Docs',
           },
           {
@@ -106,6 +124,11 @@ const config = {
             href: 'https://github.com/donetick/donetick',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            to: '/api-client',
+            label: 'API Client',
+            position: 'left',
           },
         ],
       },
@@ -170,7 +193,7 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-    }),
-};
+    })
+  };
 
 export default config;
