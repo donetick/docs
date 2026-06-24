@@ -79,7 +79,7 @@ You can run Donetick using Docker, Docker Compose, or directly from a binary.
 4.  **Run Donetick:** Run the Donetick binary, setting the `DT_ENV` environment variable:
 
     ```bash
-    DT_ENV=selfhosted./donetick
+    DT_ENV=selfhosted ./donetick
     ```
 
     This command assumes the Donetick binary is named `donetick`.  Adjust the name if necessary.
