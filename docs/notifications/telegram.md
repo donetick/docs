@@ -12,7 +12,7 @@ Donetick supports sending notifications to Telegram chat and groups. This guide 
 ## Prerequisites
 
 - Create a Telegram bot
-- Descover the chat ID
+- Discover the chat ID
 - Configure Donetick
 
 ## Create a Telegram Bot
@@ -35,7 +35,7 @@ you can search for `userinfobot` in Telegram and start a chat with it. The bot w
 
 ## Configure Donetick
 
-To configure Donetick to send notifications to Telegram, you need to update you `config.yaml` file with the Telegram configuration. Please check the [Configuration](../getting-started/configration#telegram) documentation for more information on the configuration file.
+To configure Donetick to send notifications to Telegram, you need to update you `config.yaml` file with the Telegram configuration. Please check the [Configuration](../getting-started/configuration#telegram) documentation for more information on the configuration file.
 
 Once you have added the configuration, restart Donetick for the changes to take effect.
 

@@ -13,7 +13,7 @@ This guide provides instructions on how to quickly get started with Donetick loc
 
 Before running Donetick, ensure you have a valid configuration file.  Donetick looks for a YAML file named `local.yaml` or `selfhosted.yaml` within the `./config` directory. The file name is chosen based on the `DT_ENV` environment variable. If `DT_ENV` is not set, `local.yaml` is used by default.
 
-1.  **Create a Configuration File:** If you don't have one, create a YAML file (e.g., `selfhosted.yaml`) based on the example provided in the [Configuration](./configration) documentation.
+1.  **Create a Configuration File:** If you don't have one, create a YAML file (e.g., `selfhosted.yaml`) based on the example provided in the [Configuration](./configuration) documentation.
 2.  **Place the Configuration File:** Place the `selfhosted.yaml` (or your chosen name) file in the `/config` directory within your Donetick application's root directory.
 
 ## Running Donetick
