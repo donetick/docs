@@ -37,6 +37,20 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/getting-started/configration',
+            to: '/getting-started/configuration',
+          },
+        ],
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
