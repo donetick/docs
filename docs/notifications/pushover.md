@@ -34,7 +34,7 @@ To receive notifications on your devices, you need to get your Pushover user key
 
 ## Configure Donetick
 
-To configure Donetick to send notifications to Pushover, you need to update your `config.yaml` file with the Pushover configuration. Please check the [Configuration](../getting-started/configration#pushover) documentation for more information on the configuration file.
+To configure Donetick to send notifications to Pushover, you need to update your `config.yaml` file with the Pushover configuration. Please check the [Configuration](../getting-started/configuration#pushover) documentation for more information on the configuration file.
 
 
 Once you have added the configuration, restart Donetick for the changes to take effect.
